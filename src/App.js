@@ -32,6 +32,7 @@ function App() {
   const [user, setUser] = useState(null);
   // Comment added
 
+  console.log("hello");
   return (
     <Router>
       <ToastContainer />
