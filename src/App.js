@@ -30,6 +30,7 @@ initializeApp(firebaseConfig);
 
 function App() {
   const [user, setUser] = useState(null);
+  // Comment added
 
   return (
     <Router>
