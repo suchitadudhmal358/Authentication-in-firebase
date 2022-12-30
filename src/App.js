@@ -30,6 +30,7 @@ initializeApp(firebaseConfig);
 
 function App() {
   const [user, setUser] = useState(null);
+  console.log("hello");
   // Comment added
   console.log("Demo");
   return (
